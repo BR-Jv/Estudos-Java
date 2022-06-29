@@ -53,3 +53,41 @@ Resto da divisão -> %<br>
 Igual -> ==<br>
 Diferença -> !=
 
+# Escrita de Strings
+Usamos o `System.out.print()` para imprimir dados na tela.<br>
+*println()* -> faz a quebra de linha.<br>
+*print()* -> não faz a quebra de linha.<br>
+
+| Caractere | representa |
+| ----------- | ----------- |
+| \n | quebra de linha |
+| \" | aspas duplas |
+| \t | tabulação |
+| \\ | \ |
+| \' | aspas simples  |
+
+# Entrada de dados (via console)
+Usamos uma função da classe scanner.<br>
+```
+//Exemplo
+import java.util.scanner;
+public class ExemploScanner { 
+  
+  public static void main(String[] args){
+    Scanner leitor = new Scanner(System.in);
+    String nome = leitor.nextLine(); //Entrada de dados e armazenamento na variável nome
+  }
+
+}
+```
+**Obs:**
+Para fazer uso de classes que não são padrão do (java.lang), precisamos importá-las, fazemos isso usando a palavra chave **import**
+seguida do nome da biblioteca e da classe que queremos (em java chamamos bibliotecas de pacotes)
+
+|  |  |
+| ----------- | ----------- |
+| nextLine() | Lê texto |
+| nextInt() | Lê número tipo inteiro |
+| nextLong() | Lê número tipo long |
+| nextFloat() | Lê número tipo float |
+| nextDouble() | Lê número tipo double |
