@@ -91,3 +91,31 @@ seguida do nome da biblioteca e da classe que queremos (em java chamamos bibliot
 | nextLong() | Lê número tipo long |
 | nextFloat() | Lê número tipo float |
 | nextDouble() | Lê número tipo double |
+
+# Comandos de seleção 
+*IF-ELSE*
+```
+if(){ //Se condição == true, execute o bloco A senão execute bloco B 
+  //bloco A
+}else {
+  //bloco B
+}
+```
+*SWITCH*
+```
+switch(expressão)
+{
+  case constante1:
+    //bloco_A;
+  break;
+  case constante2:
+    //bloco_B;
+  break;
+  case constante3:
+    //bloco_C;
+  break;
+  default:
+    //bloco_default; 
+}
+
+```
