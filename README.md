@@ -54,6 +54,7 @@ Igual -> ==<br>
 Diferença -> !=
 
 # Escrita de Strings
+
 Usamos o `System.out.print()` para imprimir dados na tela.<br>
 *println()* -> faz a quebra de linha.<br>
 *print()* -> não faz a quebra de linha.<br>
@@ -67,6 +68,7 @@ Usamos o `System.out.print()` para imprimir dados na tela.<br>
 | \' | aspas simples  |
 
 # Entrada de dados (via console)
+
 Usamos uma função da classe scanner.<br>
 ```
 //Exemplo
@@ -93,6 +95,7 @@ seguida do nome da biblioteca e da classe que queremos (em java chamamos bibliot
 | nextDouble() | Lê número tipo double |
 
 # Comandos de seleção 
+
 *IF-ELSE*
 ```
 if(){ //Se condição == true, execute o bloco A senão execute bloco B 
@@ -119,3 +122,39 @@ switch(expressão)
 }
 
 ```
+
+# Comandos de iterações 
+
+*Laço For*
+```
+  public class ForExemplo {
+    public static void main(String[] args){
+      for(int i = 1; i <= 10; i++>){
+        System.out.println(i);
+      }
+    }    
+  }
+```
+*Laço while*
+```
+public class WhileExemplo {
+    public static void main(String[] args){
+      int i = 1;
+      while(i <= 10){
+        System.out.println(i);
+        i = i + 1;
+      }
+    }    
+  }
+```
+*Laço do-while*
+```
+public class do-whileExemplo {
+    public static void main(String[] args){
+      do {
+        //comandos
+      } while( condição );
+    }    
+  }
+```
+No laço do-while, o código dentro do laço sempre será executado pelo menos uma vez.<br>
