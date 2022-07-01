@@ -158,3 +158,32 @@ public class do-whileExemplo {
   }
 ```
 No laço do-while, o código dentro do laço sempre será executado pelo menos uma vez.<br>
+
+# Vetores e Matrizes 
+
+*Vetores*
+vetor é uma estrutura de dados homogênea, ou seja, que armazena valores de um mesmo tipo.
+
+Exemplo:<br>
+```
+import java.util.Scanner;
+
+public class ArrExemplo {
+  public static void main(String[] args){
+    Scanner leitor = new Scanner(System.in);
+    int arr[] = new int[3];
+    //pode ser feito com um laço de repetição
+    arr[0] = leitor.nextInt();
+    arr[1] = leitor.nextInt();
+    arr[2] = leitor.nextInt();
+  }
+}
+```
+*calculando o epaço ocupado na memória por um vetor*
+
+Espaço ocupado = Tamanho ocupado por cada elemento do vetor * tamanho do vetor 
+
+*Matrizes*
+
+`int arr[][] = new int[tamanho_linha][tmanho_coluna]`
+
