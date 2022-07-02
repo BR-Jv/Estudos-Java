@@ -1,4 +1,8 @@
-## Resumo 
+## Resumo do conteúdo
+* Repositório para consultas rápidas
+* Feito pra quem já sabe sobre a linguagem java, mas ás vezes precisa relembrar algo de forma rápida.
+* Se você está querendo aprender sobre java, eu índico procurar um material mais completo.
+* Exemplos de aplicação > resumo escrito sobre tópico. 
 
 # Variáveis 
 
@@ -45,19 +49,22 @@ Usamos a palavra chave **final** na declaração das constantes.<br>
 
 # Expressões aritméticas e boleanas 
 
-soma -> +<br>
-subtração -> -  
-multiplicação -> *<br>
-Divisão -> /<br>
-Resto da divisão -> %<br>
-Igual -> ==<br>
-Diferença -> !=
+|  |  |
+| ----------- | ----------- |
+| soma | + |
+| subtração | - |
+| multiplicação | * |
+| divisão | / |
+| resto da divisão | % |
+| diferênça | != |
+| igual | == |
+
 
 # Escrita de Strings
 
 Usamos o `System.out.print()` para imprimir dados na tela.<br>
-*println()* -> faz a quebra de linha.<br>
-*print()* -> não faz a quebra de linha.<br>
+* *println()* -> faz a quebra de linha.<br>
+* *print()* -> não faz a quebra de linha.<br>
 
 | Caractere | representa |
 | ----------- | ----------- |
