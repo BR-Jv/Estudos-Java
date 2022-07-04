@@ -192,5 +192,13 @@ Espaço ocupado = Tamanho ocupado por cada elemento do vetor * tamanho do vetor
 
 *Matrizes*
 
-`int arr[][] = new int[tamanho_linha][tmanho_coluna]`
+```
+public class ExemploMatriz {
+  public static void main(String[] args){
+    //Uma matriz de ordem 2
+    int matriz[][] = new int[2][2];
+  }
+}
+
+```
 
