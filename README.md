@@ -168,8 +168,8 @@ No laço do-while, o código dentro do laço sempre será executado pelo menos u
 
 # Vetores e Matrizes 
 
-*Vetores*
-vetor é uma estrutura de dados homogênea, ou seja, que armazena valores de um mesmo tipo.
+*VETORES*<br>
+é uma estrutura de dados homogênea, ou seja, que armazena valores de um mesmo tipo.
 
 Exemplo:<br>
 ```
@@ -178,27 +178,83 @@ import java.util.Scanner;
 public class ArrExemplo {
   public static void main(String[] args){
     Scanner leitor = new Scanner(System.in);
-    int arr[] = new int[3];
-    //pode ser feito com um laço de repetição
+    int arr[] = new int[3]; 
     arr[0] = leitor.nextInt();
     arr[1] = leitor.nextInt();
     arr[2] = leitor.nextInt();
   }
 }
 ```
-*calculando o epaço ocupado na memória por um vetor*
+
+*CALCULANDO O ESPAÇO OCUPADO NA MEMÓRIA POR UM VETOR*
 
 Espaço ocupado = Tamanho ocupado por cada elemento do vetor * tamanho do vetor 
 
-*Matrizes*
+*MATRIZES*
 
 ```
 public class ExemploMatriz {
   public static void main(String[] args){
-    //Uma matriz de ordem 2
-    int matriz[][] = new int[2][2];
+    int matriz[][] = new int[2][2]; //Matriz de ordem 2
   }
 }
 
 ```
 
+# Manipulação de strings
+
+*COMPARAÇÃO DE STRINGS*<br>
+- Em Java, a comparação de Strings é sensivel a letras maiúsculas e minúsculas.<br>
+equals() - compara strings fazendo distinção entre letras maiúsculas e minúsculas.<br>
+equalsIgnoreCase() - compara strings sem fazer distinção entre letras maiúsculas e minúsculas.<br>
+toUpperCase() - transformar todos os caracteres em letras maiúsculas.<br>
+toLowerCase() - transformar todos os caracteres em letras minúsculas.
+
+```
+//comparando duas strings 
+public static void main(String[] args){
+  String nome1 = "João"; 
+  String nome2 = "Maria";
+  if(nome1.equals(nome2)){ //nome1.equalsIgnoreCase(nome2)
+    System.out.println("nomes iguais");
+  }else {
+    System.out.println("nomes diferentes");
+  }
+}
+```
+
+# Strings como arrays de caracteres 
+
+*Convertendo uma String em uma array de caracteres*
+
+toCharArray() - retorna uma array de caracteres.<br>
+length() - retorna a quantidade de caracteres que a string ou array possui.
+
+```
+  public static void main(String[] args){
+    String nome = "João";
+    char[] caracteres = nome.toCharArray(); 
+  }
+```
+
+*Manipulando uma string como uma array*
+ 
+ ```
+  public static void main(String[] args){
+    String nome = "João Victor Alves";
+    System.out.println(nome.charAt(0)); //retorna 'J'
+    System.out.println(nome.charAt(5)); //retorna 'V'
+    System.out.println(nome.charAt(12)); //retorna 'A'
+  }
+ ```
+
+ # Buscas em Strings 
+
+indexOF() - retorna a posição da primeira ocorrência, caso não exista retona o valor -1.
+ ```
+  public static void main(String[] args){
+    String nome = "João Victor Alves";
+    char caractere = 'J';
+    System.out.println(nome.indexOf(caractere)); //retorna 0
+  }
+ ```
