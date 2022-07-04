@@ -103,15 +103,15 @@ seguida do nome da biblioteca e da classe que queremos (em java chamamos bibliot
 
 # Comandos de seleção 
 
-*IF-ELSE*
+**IF-ELSE**
 ```
-if(){ //Se condição == true, execute o bloco A senão execute bloco B 
+if(){  
   //bloco A
 }else {
   //bloco B
 }
 ```
-*SWITCH*
+**SWITCH**
 ```
 switch(expressão)
 {
@@ -132,7 +132,7 @@ switch(expressão)
 
 # Comandos de iterações 
 
-*Laço For*
+**FOR**
 ```
   public class ForExemplo {
     public static void main(String[] args){
@@ -142,7 +142,7 @@ switch(expressão)
     }    
   }
 ```
-*Laço while*
+**WHILE**
 ```
 public class WhileExemplo {
     public static void main(String[] args){
@@ -154,7 +154,7 @@ public class WhileExemplo {
     }    
   }
 ```
-*Laço do-while*
+**DO-WHILE**
 ```
 public class do-whileExemplo {
     public static void main(String[] args){
@@ -164,11 +164,10 @@ public class do-whileExemplo {
     }    
   }
 ```
-No laço do-while, o código dentro do laço sempre será executado pelo menos uma vez.<br>
+- No laço do-while, o código dentro do laço sempre será executado pelo menos uma vez.
 
-# Vetores e Matrizes 
+# VETORES
 
-*VETORES*<br>
 é uma estrutura de dados homogênea, ou seja, que armazena valores de um mesmo tipo.
 
 Exemplo:<br>
@@ -186,11 +185,11 @@ public class ArrExemplo {
 }
 ```
 
-*CALCULANDO O ESPAÇO OCUPADO NA MEMÓRIA POR UM VETOR*
+# CALCULANDO O ESPAÇO OCUPADO NA MEMÓRIA POR UM VETOR
 
 Espaço ocupado = Tamanho ocupado por cada elemento do vetor * tamanho do vetor 
 
-*MATRIZES*
+# MATRIZES
 
 ```
 public class ExemploMatriz {
@@ -201,14 +200,14 @@ public class ExemploMatriz {
 
 ```
 
-# Manipulação de strings
+# COMPARAÇÃO DE STRINGS
 
-*COMPARAÇÃO DE STRINGS*<br>
 - Em Java, a comparação de Strings é sensivel a letras maiúsculas e minúsculas.<br>
-equals() - compara strings fazendo distinção entre letras maiúsculas e minúsculas.<br>
-equalsIgnoreCase() - compara strings sem fazer distinção entre letras maiúsculas e minúsculas.<br>
-toUpperCase() - transformar todos os caracteres em letras maiúsculas.<br>
-toLowerCase() - transformar todos os caracteres em letras minúsculas.
+
+**equals()** - compara strings fazendo distinção entre letras maiúsculas e minúsculas.<br>
+**equalsIgnoreCase()** - compara strings sem fazer distinção entre letras maiúsculas e minúsculas.<br>
+**toUpperCase()** - transformar todos os caracteres em letras maiúsculas.<br>
+**toLowerCase()** - transformar todos os caracteres em letras minúsculas.
 
 ```
 //comparando duas strings 
@@ -221,14 +220,12 @@ public static void main(String[] args){
     System.out.println("nomes diferentes");
   }
 }
-```
+``` 
 
-# Strings como arrays de caracteres 
+# Convertendo uma String em uma array de caracteres
 
-*Convertendo uma String em uma array de caracteres*
-
-toCharArray() - retorna uma array de caracteres.<br>
-length() - retorna a quantidade de caracteres que a string ou array possui.
+**toCharArray()** - retorna uma array de caracteres.<br>
+**length()** - retorna a quantidade de caracteres que a string ou array possui.
 
 ```
   public static void main(String[] args){
@@ -237,7 +234,7 @@ length() - retorna a quantidade de caracteres que a string ou array possui.
   }
 ```
 
-*Manipulando uma string como uma array*
+# Manipulando uma string como uma array
  
  ```
   public static void main(String[] args){
@@ -250,7 +247,7 @@ length() - retorna a quantidade de caracteres que a string ou array possui.
 
  # Buscas em Strings 
 
-indexOF() - retorna a posição da primeira ocorrência, caso não exista retona o valor -1.
+**indexOF()** - retorna a posição da primeira ocorrência, caso não exista retona o valor -1.
  ```
   public static void main(String[] args){
     String nome = "João Victor Alves";
