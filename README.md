@@ -1,34 +1,27 @@
-## Resumo do conteúdo
-* Repositório para consultas rápidas
-* Feito pra quem já sabe sobre a linguagem java, mas ás vezes precisa relembrar algo de forma rápida.
-* Se você está querendo aprender sobre java, eu índico procurar um material mais completo.
-* Exemplos de aplicação > resumo escrito sobre tópico. 
+# Detalhes
+* Feito pra quem já sabe um pouco sobre a linguagem.
+* Conteúdo extremamente resumido.
+* Repositório feito para me auxiliar quando fico muito tempo sem ter contato com a linguagem java.
+
 
 # Variáveis 
 
-**Forma geral** <br>
-`tipo_da_var nome_da_var`<br>
-**Exemplo<br>**
-`double preco;` <br>
-`char letra, inicial;` <br>
-`double altura, peso, imc;` <br>
-
-- variáveis podem ser declaradas e já inicializadas <br>
-- Variáveis podem ter escopo: <br>
-  - *Global:*
- `public static`  
-  - *Local:* 
- `private static`<br>
 ```
-//Exemplo
-public class ExemploEscopo {
-  public static int n1 = 10;
-  private static int n2 = 10;
-  
-  public static void main(String[] args){
-    ...
+  double valor;
+  double altura, peso, imc;
+  char letra = 'a';
+ 
+```
+**Escopo variáveis**<br>
+```
+  public class ExemploEscopo {
+    public static int n1 = 10; //ESCOPO GLOBAL
+    private static int n2 = 10; //ESCOPO LOCAL
+
+    public static void main(String[] args){
+      ...
+    }
   }
-}
 ```
 
 # Constantes
@@ -63,8 +56,8 @@ Usamos a palavra chave **final** na declaração das constantes.<br>
 # Escrita de Strings
 
 Usamos o `System.out.print()` para imprimir dados na tela.<br>
-* *println()* -> faz a quebra de linha.<br>
-* *print()* -> não faz a quebra de linha.<br>
+**println()** -> faz a quebra de linha.<br>
+**print()** -> não faz a quebra de linha.<br>
 
 | Caractere | representa |
 | ----------- | ----------- |
@@ -91,7 +84,7 @@ public class ExemploScanner {
 ```
 **Obs:**
 Para fazer uso de classes que não são padrão do (java.lang), precisamos importá-las, fazemos isso usando a palavra chave **import**
-seguida do nome da biblioteca e da classe que queremos (em java chamamos bibliotecas de pacotes)
+seguida do nome da biblioteca e da classe que queremos(em java chamamos bibliotecas de pacotes).
 
 |  |  |
 | ----------- | ----------- |
