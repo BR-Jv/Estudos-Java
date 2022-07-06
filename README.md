@@ -4,7 +4,7 @@
 * Repositório feito para me auxiliar quando fico muito tempo sem ter contato com a linguagem java.
 
 
-# Variáveis 
+# VARIÁVEIS 
 
 ```
   double valor;
@@ -24,13 +24,13 @@
   }
 ```
 
-# Constantes
+# CONSTANTES
 
 Usamos a palavra chave **final** na declaração das constantes.<br>
 `public static final double g = 9.8;`<br>
 `final double g = 9.8;`
 
-# Valores padrões
+# VALORES PADRÕES
 
 | tipo | valor |
 | ----------- | ----------- |
@@ -40,7 +40,7 @@ Usamos a palavra chave **final** na declaração das constantes.<br>
 | String, ou qualquer objeto | null |
 | boleano | false |
 
-# Expressões aritméticas e boleanas 
+# EXPRESSÕES ARITMÉTICAS E BOOLEANAS 
 
 |  |  |
 | ----------- | ----------- |
@@ -251,13 +251,18 @@ public static void main(String[] args){
 
 # FUNÇÕES E PROCEDIMENTOS  
 
-**Funções** - retornam algo.
+**Funções** - retornam algo.<br>
 **Procedimento** - não retornam nada.
 
-**Declaração geral funções**
 ```
-public static tipo_retorno <nome_função>( parâmetros ){
-  //comando
+//Função
+public static int soma( int value1, int value2 ){
+  return value1 + value2;
+}
+
+//Procedimento
+public static void sayHello(){
+  System.out.println("Hello!");
 }
 ```
 
