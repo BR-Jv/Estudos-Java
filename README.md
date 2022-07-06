@@ -53,7 +53,7 @@ Usamos a palavra chave **final** na declaração das constantes.<br>
 | igual | == |
 
 
-# Escrita de Strings
+# ESCRITA DE STRINGS
 
 Usamos o `System.out.print()` para imprimir dados na tela.<br>
 **println()** -> faz a quebra de linha.<br>
@@ -67,7 +67,7 @@ Usamos o `System.out.print()` para imprimir dados na tela.<br>
 | \\ | \ |
 | \' | aspas simples  |
 
-# Entrada de dados (via console)
+# ENTRADA DE DADOS (via console)
 
 Usamos uma função da classe scanner.<br>
 ```
@@ -94,7 +94,7 @@ seguida do nome da biblioteca e da classe que queremos(em java chamamos bibliote
 | nextFloat() | Lê número tipo float |
 | nextDouble() | Lê número tipo double |
 
-# Comandos de seleção 
+# COMANDOS DE SELEÇÃO 
 
 **IF-ELSE**
 ```
@@ -123,7 +123,7 @@ switch(expressão)
 
 ```
 
-# Comandos de iterações 
+# COMANDOS DE ITERAÇÃO 
 
 **FOR**
 ```
@@ -215,7 +215,7 @@ public static void main(String[] args){
 }
 ``` 
 
-# Convertendo uma String em uma array de caracteres
+# CONVERTENDO UMA STRING EM UMA ARRAY DE CARACTERES
 
 **toCharArray()** - retorna uma array de caracteres.<br>
 **length()** - retorna a quantidade de caracteres que a string ou array possui.
@@ -227,7 +227,7 @@ public static void main(String[] args){
   }
 ```
 
-# Manipulando uma string como uma array
+# MANIPULANDO UMA STRING COMO UMA ARRAY
  
  ```
   public static void main(String[] args){
@@ -238,7 +238,7 @@ public static void main(String[] args){
   }
  ```
 
- # Buscas em Strings 
+# BUSCAS EM STRINGS 
 
 **indexOF()** - retorna a posição da primeira ocorrência, caso não exista retona o valor -1.
  ```
@@ -249,7 +249,7 @@ public static void main(String[] args){
   }
  ```
 
-# Funções e Procedimentos  
+# FUNÇÕES E PROCEDIMENTOS  
 
 **Funções** - retornam algo.
 **Procedimento** - não retornam nada.
@@ -261,7 +261,7 @@ public static tipo_retorno <nome_função>( parâmetros ){
 }
 ```
 
-# Registros 
+# REGISTROS 
 
 - Devemos colocá-los de forma separada do programa , em uma classe aparte.
 
@@ -290,5 +290,5 @@ public static void main(String[] args){
 }
 ```
 
-# Enumeração 
+# ENUMERAÇÃO 
 (ainda em desenvolvimento)
