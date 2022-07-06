@@ -2,7 +2,7 @@ package VetoreseMatrizes;
 
 import java.util.Scanner;
 
-public class questão01 {
+public class q01 {
    public static void main(String[] args){
       int matrizA[][] = new int[3][4]; 
       int matrizB[][] = new int[3][2];

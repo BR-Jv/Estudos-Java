@@ -3,7 +3,6 @@
 * Conteúdo extremamente resumido.
 * Repositório feito para me auxiliar quando fico muito tempo sem ter contato com a linguagem java.
 
-
 # VARIÁVEIS 
 
 ```
@@ -296,4 +295,7 @@ public static void main(String[] args){
 ```
 
 # ENUMERAÇÃO 
-(ainda em desenvolvimento)
+
+é uma lista de constante pré-definida.<br>
+
+***Entenda o exemplo do diretório Enums!***.
