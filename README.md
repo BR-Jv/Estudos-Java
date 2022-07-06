@@ -248,3 +248,47 @@ public static void main(String[] args){
     System.out.println(nome.indexOf(caractere)); //retorna 0
   }
  ```
+
+# Funções e Procedimentos  
+
+**Funções** - retornam algo.
+**Procedimento** - não retornam nada.
+
+**Declaração geral funções**
+```
+public static tipo_retorno <nome_função>( parâmetros ){
+  //comando
+}
+```
+
+# Registros 
+
+- Devemos colocá-los de forma separada do programa , em uma classe aparte.
+
+```
+//Exemplo de um Registro chamado de Endereço
+public class Endereco {
+  public String rua;
+  public int numero;
+  public String cep;
+}
+
+//Exemplo de um registro chamado Pessoa
+public class Pessoa {
+  public String nome;
+  public String telefone;
+  public Endereco enderecoResidencia;
+}
+
+//Utilizando os registros 
+...
+public static void main(String[] args){
+  Scanner leitor = new Scanner(System.in);
+  Endereco end = new Endereco(); 
+  end.rua = leitor.nextLine();
+  ...
+}
+```
+
+# Enumeração 
+(ainda em desenvolvimento)
