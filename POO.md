@@ -4,7 +4,7 @@ Os quatro pilares derivados do princípio da abstração.
 3. Composição 
 4. Polimorfismo
 
-## Classes 
+# Classes 
 
 - A classe é o modelo ou molde de construção de objetos.
 - O modelo define as características e comportamentos que os objetos irão determinar seus valores e desempenhar suas ações, respectivamente.
@@ -28,7 +28,7 @@ class Carro {
 }
 ```
 
-## Objetos
+# Objetos
 
 ### Métodos Construtores
 
