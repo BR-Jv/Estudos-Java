@@ -3,7 +3,7 @@
 * Conteúdo extremamente resumido.
 * Repositório feito para me auxiliar quando fico muito tempo sem ter contato com a linguagem java.
 
-# VARIÁVEIS 
+# Variáveis 
 
 ```
   double valor;
@@ -23,13 +23,13 @@
   }
 ```
 
-# CONSTANTES
+# Constantes
 
 Usamos a palavra chave **final** na declaração das constantes.<br>
 `public static final double g = 9.8;`<br>
 `final double g = 9.8;`
 
-# VALORES PADRÕES
+# Valores padrões
 
 | tipo | valor |
 | ----------- | ----------- |
@@ -52,7 +52,7 @@ Usamos a palavra chave **final** na declaração das constantes.<br>
 | igual | == |
 
 
-# ESCRITA DE STRINGS
+# Escrita de strings
 
 Usamos o `System.out.print()` para imprimir dados na tela.<br>
 **println()** -> faz a quebra de linha.<br>
@@ -66,7 +66,7 @@ Usamos o `System.out.print()` para imprimir dados na tela.<br>
 | \\ | \ |
 | \' | aspas simples  |
 
-# ENTRADA DE DADOS (via console)
+# Entrada de dados (via console)
 
 Usamos uma função da classe scanner.<br>
 ```
@@ -93,7 +93,7 @@ seguida do nome da biblioteca e da classe que queremos(em java chamamos bibliote
 | nextFloat() | Lê número tipo float |
 | nextDouble() | Lê número tipo double |
 
-# COMANDOS DE SELEÇÃO 
+# Comandos de seleção 
 
 **IF-ELSE**
 ```
@@ -122,7 +122,7 @@ switch(expressão)
 
 ```
 
-# COMANDOS DE ITERAÇÃO 
+# Comandos de iteração 
 
 **FOR**
 ```
@@ -158,7 +158,7 @@ public class do-whileExemplo {
 ```
 - No laço do-while, o código dentro do laço sempre será executado pelo menos uma vez.
 
-# VETORES
+# Vetores
 
 é uma estrutura de dados homogênea, ou seja, que armazena valores de um mesmo tipo.
 
@@ -181,7 +181,7 @@ public class ArrExemplo {
 
 Espaço ocupado = Tamanho ocupado por cada elemento do vetor * tamanho do vetor 
 
-# MATRIZES
+# Matrizes
 
 ```
 public class ExemploMatriz {
@@ -192,7 +192,7 @@ public class ExemploMatriz {
 
 ```
 
-# COMPARAÇÃO DE STRINGS
+# Comparação de strings
 
 - Em Java, a comparação de Strings é sensivel a letras maiúsculas e minúsculas.<br>
 
@@ -214,7 +214,7 @@ public static void main(String[] args){
 }
 ``` 
 
-# CONVERTENDO UMA STRING EM UMA ARRAY DE CARACTERES
+# Convertendo uma string em uma array de caracteres
 
 **toCharArray()** - retorna uma array de caracteres.<br>
 **length()** - retorna a quantidade de caracteres que a string ou array possui.
@@ -226,7 +226,7 @@ public static void main(String[] args){
   }
 ```
 
-# MANIPULANDO UMA STRING COMO UMA ARRAY
+# Manipulando uma string como uma array
  
  ```
   public static void main(String[] args){
@@ -237,7 +237,7 @@ public static void main(String[] args){
   }
  ```
 
-# BUSCAS EM STRINGS 
+# Buscas em strings 
 
 **indexOF()** - retorna a posição da primeira ocorrência, caso não exista retona o valor -1.
  ```
@@ -248,7 +248,7 @@ public static void main(String[] args){
   }
  ```
 
-# FUNÇÕES E PROCEDIMENTOS  
+# Funções e Procedimentos  
 
 **Funções** - retornam algo.<br>
 **Procedimento** - não retornam nada.
@@ -265,7 +265,7 @@ public static void sayHello(){
 }
 ```
 
-# REGISTROS 
+# Registros 
 
 - Devemos colocá-los de forma separada do programa , em uma classe aparte.
 
@@ -294,7 +294,7 @@ public static void main(String[] args){
 }
 ```
 
-# ENUMERAÇÃO 
+# Enumerações 
 
 é uma lista de constante pré-definida.<br>
 
