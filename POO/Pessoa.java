@@ -1,9 +1,9 @@
 package POO;
 
 public class Pessoa {
-   String nome;
-   int idade;
-   Carro car;
+   private String nome;
+   private int idade;
+   private Carro car;
    
    void ligarCarro(){
       car.ligar();

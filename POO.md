@@ -75,3 +75,13 @@ A troca de mensagem entre objetos se dar pelo acionamente de métodos, em java e
 # Encapsulamento 
 
 É a característica da OO capaz de ocultar partes (dados e detalhes), de implementação interna de classes, do mundo exterior.
+
+### modificadores de acesso
+
+[ExemploAgenda]<br>
+
+são palavras-chave ou reservadas da linguagem cuja utilidade é permitir ou proibir o acesso aos atributos e/ou métodos das classes.<br>
+
+**public** - acessado ou executado por qualquer classe.<br>
+**private** - acessado, modificado ou executado por métodos da mesma classe.<br>
+**protected** - pode ser acessado por classes filhas ou derivadas.

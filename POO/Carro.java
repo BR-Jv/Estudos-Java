@@ -1,12 +1,12 @@
 package POO;
 
 public class Carro {
-   String tipo;
-   String cor;
-   String placa;
-   int numPortas;
-   Pessoa dono;
-   int cambio;
+   private String tipo;
+   private String cor;
+   private String placa;
+   private int numPortas;
+   private Pessoa dono;
+   private int cambio;
 
    void ligar(){
       System.out.println("carro ligado");
