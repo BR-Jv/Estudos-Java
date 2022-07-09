@@ -85,3 +85,36 @@ são palavras-chave ou reservadas da linguagem cuja utilidade é permitir ou pro
 **public** - acessado ou executado por qualquer classe.<br>
 **private** - acessado, modificado ou executado por métodos da mesma classe.<br>
 **protected** - pode ser acessado por classes filhas ou derivadas.
+
+# Composição 
+
+É o mecanismo de reaproveitamento de classes.
+
+significa que se pode usar uma ou várias classes para compor outra classe.<br> 
+**Exemplo:** 
+```
+//Classe Motor 
+class Motor{
+   private int potencia;
+}
+
+//classe Direção 
+class Direcao {
+   private String cor;
+}
+
+//Classe Automóvel 
+class Automovel {
+   private Motor motor;
+   private Direcao direcao;
+}
+```
+
+### A composição e o Método Construtor 
+
+**[Olhar ExemploComposição]**<br>
+Os métodos construtores das classes componentes que fazem parte da classe composta podem ser chamados de três maneiras diferentes: 
+1. chamadas nos construtores da classe que é composta;
+2. chamadas em qualquer métodos da classe que é composta;
+3. chamadas foda da classe que é composta
+
