@@ -8,7 +8,7 @@ Os quatro pilares derivados do princípio da abstração.
 
 - A classe é o modelo ou molde de construção de objetos.
 - O modelo define as características e comportamentos que os objetos irão determinar seus valores e desempenhar suas ações, respectivamente.
-- A classe é abstrara(não existe concretamente)
+- A classe é abstrata (não existe concretamente)
 
 ```
 class Carro {
@@ -32,7 +32,7 @@ class Carro {
 
 ### Métodos Construtores
 
-Toda classe deve ter um construtor, quando não é codificado um o compilador cria um padrão.<br>
+Toda classe deve ter um construtor, quando não é codificado um, o compilador cria um padrão.<br>
 
 **importante:**
 - não tem tipo de retorno. 
@@ -46,7 +46,7 @@ class Carro {
 }
 
 ```
-instânciando esse objeto, lembrando que deve ser feito na classe main.<br>
+instânciando o objeto.<br>
 `Carro newCar = new Carro()`
 
 ### Sobrecarga de Construtores 
@@ -70,11 +70,11 @@ public class Carro {
 
 A troca de mensagem entre objetos se dar pelo acionamente de métodos, em java essa troca representa: 
 - A mudança ou leitura do estado interno do objeto através da alteração de um de seus atributos;
-- A chamada a um dos métodso do objeto quer representam seu comportamento e as tarefas que sação capazes de desempenhar.
+- A chamada a um dos métodos do objeto que representam seu comportamento e as tarefas que são capazes de desempenhar.
 
 # Encapsulamento 
 
-É a característica da OO capaz de ocultar partes (dados e detalhes), de implementação interna de classes, do mundo exterior.
+É a característica da Orientação a Objetos capaz de ocultar partes (dados e detalhes) de implementação interna de classes, do mundo exterior.
 
 ### modificadores de acesso
 
