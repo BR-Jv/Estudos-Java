@@ -156,4 +156,6 @@ resumindo: usamos o super dentro de um construtor filho para chamar o construtor
 **Exemplo:** 
 [uso_do_super](imgs/uso%20do%20super.png)
 
+# Polimorfismo
+
 
