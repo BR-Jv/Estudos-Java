@@ -154,7 +154,7 @@ resumindo: usamos o super dentro de um construtor filho para chamar o construtor
 - Podemos usar super para acessar atributos(ou métodos) da classe mãe, usamos igual o this.
 
 **Exemplo:** 
-[](imgs/uso%20do%20super.png)
+[uso_super](imgs/uso%20do%20super.png)
 
 # Polimorfismo
 
@@ -181,7 +181,7 @@ public class sobrecarga {
 ```
 **conversão**
 é a capacidade de um tipo ser convertido em outro tipo de maneira automática ou pela força bruta.
-[](imgs/convers%C3%A3o_java.png)
+[tabela](imgs/convers%C3%A3o_java.png)
 
 ***resumindo:*** digamos que têmos um método que recebe parâmetros do tipo float, e na classe main chamamos esse método com parâmetros do tipo int, essa ação é permitida pois o java faz uma conversão dos tipo primitivos. 
 
