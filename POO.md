@@ -154,8 +154,61 @@ resumindo: usamos o super dentro de um construtor filho para chamar o construtor
 - Podemos usar super para acessar atributos(ou métodos) da classe mãe, usamos igual o this.
 
 **Exemplo:** 
-[uso_do_super](imgs/uso%20do%20super.png)
+[](imgs/uso%20do%20super.png)
 
 # Polimorfismo
 
+É a habilidade de objetos de classes diferentes responderem a mesma mensagem de diferentes maneiras.
 
+o polimorfismo pode ser classificado de três maneiras:
+
+### Sobrecarga
+
+permite que um método de determinado nome tenha comportamentos distintos, em função de diferentes parâmetros que ele recebe.
+```
+public class sobrecarga {
+   private int xInt;
+   private int yInt;
+   private float xFloat;
+   private float yFloat;
+   private double xDouble;
+   private double yDouble;
+   public int calcMaior(intx, int y){...}
+   public float calcMaior(float x, float y){...}
+   public double calcMaior(double x, double y){...}
+   public int calcMaior(double a, double b){...} //ERRO!
+}
+```
+**conversão**
+é a capacidade de um tipo ser convertido em outro tipo de maneira automática ou pela força bruta.
+[](imgs/convers%C3%A3o_java.png)
+
+***resumindo:*** digamos que têmos um método que recebe parâmetros do tipo float, e na classe main chamamos esse método com parâmetros do tipo int, essa ação é permitida pois o java faz uma conversão dos tipo primitivos. 
+
+### Sobreposição
+
+é a redefinição de métodos em classes descendentes.
+
+```
+//Exemplo
+
+public class Brinquedo {
+   public void mover();
+}
+
+public class Carrinho extends Brinquedo {
+   public void mover(){
+      System.out.println("Correndo!!");
+   }
+}
+public class Aviãozinho extends Brinquedo {
+   public void mover(){
+      System.out.println("Voando!!");
+   }
+}
+
+```
+
+### Inclusão 
+
+usa a capacidade de substituição da herança de uma classe mãe por qualquer classe descendente, para permitir um comportamneto polimórfico nos métodos que usam a classe mãe. 
