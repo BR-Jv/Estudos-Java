@@ -1,3 +1,5 @@
+package POO.ExemploHeranca;
+
 public class Automovel extends Terrestre{
    private String cor;
    private int numPortas;

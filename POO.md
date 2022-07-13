@@ -212,3 +212,26 @@ public class Aviãozinho extends Brinquedo {
 ### Inclusão 
 
 usa a capacidade de substituição da herança de uma classe mãe por qualquer classe descendente, para permitir um comportamneto polimórfico nos métodos que usam a classe mãe. 
+
+# Coleções Java 
+
+A linguagem Java possui um conjunto de classes que servem para armazenar na memória vários objetos.<br>
+Existem tipos principais de Coleções em Java, cada uma com um propósito diferente.
+1. SET 
+ representa a mesma ideia de conjuntos da matemática, nele nunca poderemos prever a ordem com a qual serão apresentados os seus elementos sendo o principal representante dos set a classe HashSet.
+ 
+2. LIST 
+   representa uma lista de objetos, sendo possivel a repetição deles.<br>
+   Nas listas os objetos armazenados mantêm a ordem com que foram adicionados.
+
+3. MAP
+   são estruturas que relacionam um objeto a outro.
+
+### Iterando sobre coleções 
+
+Usamos o for each, também chamado de "enhancedloop" e for-in
+```
+int []a = {1, 2, 3, 4}
+for(int n : a)
+   System.out.print(n);
+```

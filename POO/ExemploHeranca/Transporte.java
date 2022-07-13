@@ -1,3 +1,4 @@
+package POO.ExemploHeranca;
 
 public class Transporte {
    protected int capacidade;
