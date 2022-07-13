@@ -216,17 +216,43 @@ usa a capacidade de substituição da herança de uma classe mãe por qualquer c
 # Coleções Java 
 
 A linguagem Java possui um conjunto de classes que servem para armazenar na memória vários objetos.<br>
-Existem tipos principais de Coleções em Java, cada uma com um propósito diferente.
-1. SET 
- representa a mesma ideia de conjuntos da matemática, nele nunca poderemos prever a ordem com a qual serão apresentados os seus elementos sendo o principal representante dos set a classe HashSet.
- 
-2. LIST 
-   representa uma lista de objetos, sendo possivel a repetição deles.<br>
-   Nas listas os objetos armazenados mantêm a ordem com que foram adicionados.
-
+Existem tipos principais de Coleções em Java, cada uma com um propósito diferente, sendo eles :
+1. SET
+2. LIST
 3. MAP
-   são estruturas que relacionam um objeto a outro.
 
+### SET 
+
+- Representa a mesma ideia de conjuntos da matemática.
+- Manipulação de conjuntos.
+ 
+### LIST 
+
+- Representa uma lista de objetos.
+- Itens podem ser repetidos.
+- Nas listas os objetos armazenados mantêm a ordem com que foram adicionados.
+   
+add([item]) - adiciona um item a lista.<br>
+remove([posição]) - remove um item da lista.<br>
+get([posição]) - retorna o item da posição passada como referência.
+   
+```
+   public static void main(String[] arg){
+      ArrayList<String> list = new ArrayList<String>();
+      list.add("chocolate");
+      list.add("bala");
+      //list.remove(0);
+      //list.get(1);
+   }
+```
+
+### MAP
+   
+   - São estruturas que relacionam um objeto a outro.
+
+   put([Chave], [item]) - adiciona no MAP uma chave que está relacionada a um objeto 
+   get([Chave]) - retorna um objeto.
+   
 ### Iterando sobre coleções 
 
 Usamos o for each, também chamado de "enhancedloop" e for-in
