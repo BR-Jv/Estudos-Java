@@ -19,7 +19,7 @@ public class List {
       
       for(String cor : cores) {
          System.out.println(cor);
-      }
+      } 
       
    }
 }

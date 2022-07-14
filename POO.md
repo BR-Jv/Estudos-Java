@@ -255,9 +255,24 @@ get([posição]) - retorna o item da posição passada como referência.
    
 ### Iterando sobre coleções 
 
-Usamos o for each, também chamado de "enhancedloop" e for-in
+Usamos o for each, também chamado de "enhancedloop" e for-in.<br>
+Olhar o exemplo do Collection.List, nele tem uma aplicação de como iterar uma collection.
+
 ```
+//Uso do For-each.
 int []a = {1, 2, 3, 4}
 for(int n : a)
    System.out.print(n);
 ```
+
+# Tratamento de Exceções 
+
+Assunto complexo, estudar melhor outra hora.
+```
+try {
+   
+} catch (Exception ex) {
+
+}
+``` 
+

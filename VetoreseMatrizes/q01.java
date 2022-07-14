@@ -12,6 +12,7 @@ public class q01 {
       InputValues(matrizB, 3, 2);
       System.out.println("Valores da terceira matriz");
       OutputValues(matrizA, matrizB);
+      
    }
    
    public static void InputValues(int m[][], int row, int column){
