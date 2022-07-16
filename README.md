@@ -11,7 +11,7 @@
   char letra = 'a';
  
 ```
-**Escopo variáveis**<br>
+**Escopo variáveis**
 ```
   public class ExemploEscopo {
     public static int n1 = 10; //ESCOPO GLOBAL
@@ -25,7 +25,7 @@
 
 # Constantes
 
-Usamos a palavra chave **final** na declaração das constantes.<br>
+Usamos a palavra chave ***final*** na declaração das constantes.<br>
 `public static final double g = 9.8;`<br>
 `final double g = 9.8;`
 
@@ -81,10 +81,6 @@ public class ExemploScanner {
 
 }
 ```
-**Obs:**
-Para fazer uso de classes que não são padrão do (java.lang), precisamos importá-las, fazemos isso usando a palavra chave **import**
-seguida do nome da biblioteca e da classe que queremos(em java chamamos bibliotecas de pacotes).
-
 |  |  |
 | ----------- | ----------- |
 | nextLine() | Lê texto |
@@ -92,6 +88,17 @@ seguida do nome da biblioteca e da classe que queremos(em java chamamos bibliote
 | nextLong() | Lê número tipo long |
 | nextFloat() | Lê número tipo float |
 | nextDouble() | Lê número tipo double |
+<br>
+
+**Obs:** Para fazer uso de classes que não são padrão do (java.lang), precisamos importá-las, fazemos isso usando a palavra chave **import**
+seguida do nome da biblioteca e da classe que queremos(em java chamamos bibliotecas de pacotes).
+```
+import nome_lib.classe;
+
+public class Exemplo {
+  ...
+}
+```
 
 # Comandos de seleção 
 
