@@ -37,7 +37,7 @@ public class SistemaSolar {
             System.out.println("Plutão não é mais considerado um planeta do sistema solar, ");
             break;
             default:
-            System.out.println("Ei...você não escreveu o nome de uma planeta do sistema solar!");
+            System.out.println("Ei...você não escreveu o nome de um planeta do sistema solar!");
             break;
       }
 
