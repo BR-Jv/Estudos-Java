@@ -104,7 +104,7 @@ public class Exemplo {
 
 **IF-ELSE**
 ```
-if(){  
+if(expressão booleana){  
   //bloco A
 }else {
   //bloco B
@@ -128,60 +128,42 @@ switch(expressão)
 }
 
 ```
+**Ternário**
+```
+(expressão booleana) ? bloco A : bloco B;
+```
 
 # Comandos de iteração 
 
 **FOR**
 ```
-  public class ForExemplo {
-    public static void main(String[] args){
-      for(int i = 1; i <= 10; i++>){
-        System.out.println(i);
-      }
-    }    
-  }
+for(){
+  //Comandos 
+}
 ```
 **WHILE**
 ```
-public class WhileExemplo {
-    public static void main(String[] args){
-      int i = 1;
-      while(i <= 10){
-        System.out.println(i);
-        i = i + 1;
-      }
-    }    
-  }
+while(){
+  //Comandos
+}
 ```
 **DO-WHILE**
 ```
-public class do-whileExemplo {
-    public static void main(String[] args){
-      do {
-        //comandos
-      } while( condição );
-    }    
-  }
+do {
+  //Comandos
+} while ();
 ```
 - No laço do-while, o código dentro do laço sempre será executado pelo menos uma vez.
 
-# Vetores
+# Vetores (Arrays)
 
 é uma estrutura de dados homogênea, ou seja, que armazena valores de um mesmo tipo.
 
 Exemplo:<br>
 ```
-import java.util.Scanner;
+//Declaração de um vetor que armazena três itens; 
+int arr[] = new int[3];
 
-public class ArrExemplo {
-  public static void main(String[] args){
-    Scanner leitor = new Scanner(System.in);
-    int arr[] = new int[3]; 
-    arr[0] = leitor.nextInt();
-    arr[1] = leitor.nextInt();
-    arr[2] = leitor.nextInt();
-  }
-}
 ```
 
 # CALCULANDO O ESPAÇO OCUPADO NA MEMÓRIA POR UM VETOR
@@ -189,14 +171,11 @@ public class ArrExemplo {
 Espaço ocupado = Tamanho ocupado por cada elemento do vetor * tamanho do vetor 
 
 # Matrizes
+É uma array bidimensional.
 
 ```
-public class ExemploMatriz {
-  public static void main(String[] args){
-    int matriz[][] = new int[2][2]; //Matriz de ordem 2
-  }
-}
-
+//Declarando uma matriz de ordem 2
+int matriz[][] = new int[2][2]; 
 ```
 
 # Comparação de strings
@@ -277,27 +256,8 @@ public static void sayHello(){
 - Devemos colocá-los de forma separada do programa , em uma classe aparte.
 
 ```
-//Exemplo de um Registro chamado de Endereço
-public class Endereco {
-  public String rua;
-  public int numero;
-  public String cep;
-}
-
-//Exemplo de um registro chamado Pessoa
-public class Pessoa {
-  public String nome;
-  public String telefone;
-  public Endereco enderecoResidencia;
-}
-
-//Utilizando os registros 
-...
-public static void main(String[] args){
-  Scanner leitor = new Scanner(System.in);
-  Endereco end = new Endereco(); 
-  end.rua = leitor.nextLine();
-  ...
+public class <Nome_da_classe> {
+  public <tipo> <nome>;
 }
 ```
 
