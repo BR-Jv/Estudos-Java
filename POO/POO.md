@@ -46,7 +46,7 @@ class Carro {
 }
 
 ```
-instânciando o objeto.<br>
+**instânciando o objeto**.<br>
 `Carro newCar = new Carro()`
 
 ### Sobrecarga de Construtores 
