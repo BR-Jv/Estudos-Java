@@ -4,17 +4,15 @@
 
 * JSP - Java Server Pages 
 Tecnologia voltada para a geração dinâmica de páginas HTML
-* Servlet 
-São pequenos programas rodando no lado servidor e responsável por receber e processar as requisições HTTP.
-* MVC(Modelo-Visão-Controlador)
-Arquitetura utilizada para separar as responsabilidades dos códigos. 
+* Servlet - São pequenos programas rodando no lado servidor e responsável por receber e processar as requisições HTTP.
+* MVC(Modelo-Visão-Controlador) - Arquitetura utilizada para separar as responsabilidades dos códigos. 
 
 ## softwares importantes para o desensolvimento<br>
 
 * Apache Tomcat 
 * JDK
-<br>
-Vídeos de como fazer o download e instalação dessas ferramentas integradas com o ambiente de desenvolvimento(IDE) podem ser encontradas na internet.<br>
+
+<br>Vídeos de como fazer o download e instalação dessas ferramentas integradas com o ambiente de desenvolvimento(IDE) podem ser encontradas na internet.<br>
 
 ***Dica:*** ler a documentação do tomcat, passar a vista em tutoriais introdutórios etc. 
 
@@ -23,7 +21,7 @@ Vídeos de como fazer o download e instalação dessas ferramentas integradas co
 Servlets são classes que herdam código da classe especial HttpServlet existente no pacote javax.servlet.http.<br>
 Usamos servlets para criarmos páginas web dinâmicas em java.<br>
 
-***Olhar o exemplo da pasta servlets***
+**[Olhar o exemplo da pasta servlets]**
 
 ## Ciclo de vida dos servlets 
 
@@ -38,23 +36,21 @@ Por fim, quando os servlets não são mais necessários o contêiner web executa
 ## Processando as requisições 
 
 Requisições GET são processadas pelo método doGet(), e requisições POST são processadas pelo método doPost().<br>
+O método doPost() funciona parecido com o doGet().<br>
 
-***Olhar o exemplo da pasta requisições***<br>
+**[Olhar o exemplo da pasta requisições]**<br>
 
 métodos que podem ser utilizados para pegar informações das requisições. <br>
-
 * getParameter()
-* gerParameterNames()
+* gerParameterNames()<br>
 
-**OBS:** procure por detalhe sobre esses e mais métodos na documentação.<br>
-
-O método doPost() funciona parecido com o doGet().
+**OBS:** procure por detalhe sobre esses e mais métodos na documentação.
 
 ## Mantendo o estado do cliente web
 
 Existem duas abordagens para manter o estado do cliente, podemos repassar parâmetros ou usar sessões.<br>
 
-**OBS:** Olhar a documentação, em especial, olhar o pacote javax.servlet e as interfaces HttpServletRequest e HttpServletResponse.
+**OBS:** Olhar a documentação para mais detalhes, em especial, olhar o pacote javax.servlet e as interfaces HttpServletRequest e HttpServletResponse.
 
 ### Repassando parâmetros 
 
