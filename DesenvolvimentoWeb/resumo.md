@@ -72,17 +72,17 @@ Fazemos isso guardando as informações em um objeto do tipo HttpSession<br>
 * Usamos o método getSession() da classe HttpServletRequest para criar o objeto 
 * Umas das formas de finaliza as sessões é usando o método invalidate() da classe HttpSession
 
-O método getSession() se comporta da seguinte forma: 
+método **getSession()** se comporta da seguinte forma: 
 * Se não existir nenhum objeto, será criado um do tipo HttpSession. 
 * Caso exista, ele irá retornar o objeto. 
 
-O método getSession(false) se comporta da seguinte forma: 
+método **getSession(false)** se comporta da seguinte forma: 
 * Se como parâmetro passarmos o valor true, ele irá se comportar como o getSession()
 * Se o valor do parâmetro for false, ele irá retornar a sessão.
-<br>
 Obs: getSession(false) não cria uma sessão, apenas retorna.<br>
 
-método invalidate(): esse método é utilizado para liberar o objeto do servidor e descartar todo o seu estado.<br>
+método **invalidate()**
+Esse método é utilizado para liberar o objeto do servidor e descartar todo o seu estado.<br>
 
 **[Olhar o exemplo da pasta sessao]**<br>
 
