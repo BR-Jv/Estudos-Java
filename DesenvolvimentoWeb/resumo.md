@@ -81,7 +81,7 @@ método **getSession(false)** se comporta da seguinte forma:
 * Se o valor do parâmetro for false, ele irá retornar a sessão.
 Obs: getSession(false) não cria uma sessão, apenas retorna.<br>
 
-método **invalidate()**
+método **invalidate()**<br>
 Esse método é utilizado para liberar o objeto do servidor e descartar todo o seu estado.<br>
 
 **[Olhar o exemplo da pasta sessao]**<br>
