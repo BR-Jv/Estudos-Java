@@ -58,6 +58,27 @@ Usamos o campos ocultos(inputs do tipo hidden) dos formulários.<br>
 
 ***Limitações dessa abordagem***<br>
 * Não se deve trafegar informações confidenciais dessa forma.
-* Um sistema precisamos repassar dados por várias telas, se usarmos essa abordagem aumentamos muito o tamanho do código com isso temos chances maiores de gerar bugs.
+* Em um sistema precisamos repassar dados por várias telas, se usarmos essa abordagem aumentamos muito o tamanho do código com isso temos chances maiores de gerar bugs.
 * Se a janela do navegador web for fechada, os dados serão perdidos.
 
+### Sessões 
+
+Com essa abordagem mantemos o estado do cliente(informações) no lado do servidor.<br>
+
+***Informações importantes***<br>
+* Utilizamos a interface javax.servlet.http.HttpSession 
+* Cada usuário só pode ter um objeto do tipo HttpSession 
+* Usamos o método getSession() da classe HttpServletRequest para criar o objeto sessão
+
+
+O método getSession() se comporta da seguinte forma: 
+* Se não existir nenhum objeto, será criado um do tipo HttpSession. 
+* Caso exista, ele irá retornar o objeto. 
+
+O método getSession(false) se comporta da seguinte forma: 
+* Se como parâmetro passarmos o valor true, ele irá se comportar como o getSession()
+* Se o valor do parâmetro for false, ele irá retornar a sessão.
+<br>
+Obs: getSession(false) não cria uma sessão, apenas retorna.<br>
+
+**[Olhar o exemplo da pasta sessao]**<br>
