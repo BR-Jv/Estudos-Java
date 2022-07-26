@@ -3,7 +3,7 @@
 ## Tecnologias java para web 
 
 * JSP - Java Server Pages 
-Tecnologia voltada para a geração dinâmica de páginas HTML
+Tecnologia voltada para a geração de páginas dinâmicas. 
 * Servlet - São pequenos programas rodando no lado servidor e responsável por receber e processar as requisições HTTP.
 * MVC(Modelo-Visão-Controlador) - Arquitetura utilizada para separar as responsabilidades dos códigos. 
 
@@ -44,7 +44,7 @@ métodos que podem ser utilizados para pegar informações das requisições. <b
 * getParameter()
 * gerParameterNames()<br>
 
-**OBS:** procure por detalhe sobre esses e mais métodos na documentação.
+**OBS:** procure por detalhes sobre esses e mais métodos na documentação.
 
 ## Mantendo o estado do cliente web
 
@@ -58,6 +58,6 @@ Usamos o campos ocultos(inputs do tipo hidden) dos formulários.<br>
 
 ***Limitações dessa abordagem***<br>
 * Não se deve trafegar informações confidenciais dessa forma.
-* Um sistema em que precisamos repassar dados podem ter várias telas, se usarmos essa abordagem podemos aumentar muito o código dos servlets, com isso aumenta as chances de bugs.
-* Se a janela do navegador web for fechada,os dados serão perdidos.
+* Um sistema precisamos repassar dados por várias telas, se usarmos essa abordagem aumentamos muito o tamanho do código com isso temos chances maiores de gerar bugs.
+* Se a janela do navegador web for fechada, os dados serão perdidos.
 
