@@ -64,12 +64,13 @@ Usamos o campos ocultos(inputs do tipo hidden) dos formulários.<br>
 ### Sessões 
 
 Com essa abordagem mantemos o estado do cliente(informações) no lado do servidor.<br>
+Fazemos isso guardando as informações em um objeto do tipo HttpSession<br>
 
 ***Informações importantes***<br>
 * Utilizamos a interface javax.servlet.http.HttpSession 
 * Cada usuário só pode ter um objeto do tipo HttpSession 
-* Usamos o método getSession() da classe HttpServletRequest para criar o objeto sessão
-
+* Usamos o método getSession() da classe HttpServletRequest para criar o objeto 
+* Umas das formas de finaliza as sessões é usando o método invalidate() da classe HttpSession
 
 O método getSession() se comporta da seguinte forma: 
 * Se não existir nenhum objeto, será criado um do tipo HttpSession. 
@@ -81,4 +82,7 @@ O método getSession(false) se comporta da seguinte forma:
 <br>
 Obs: getSession(false) não cria uma sessão, apenas retorna.<br>
 
+método invalidate(): esse método é utilizado para liberar o objeto do servidor e descartar todo o seu estado.<br>
+
 **[Olhar o exemplo da pasta sessao]**<br>
+

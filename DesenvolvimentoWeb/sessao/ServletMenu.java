@@ -28,7 +28,7 @@ public class ServletMenu extends HttpServlet {
          resposta.write("<a href=\"login.html\">Faça primeiro o seu login</a><BR>");
       } else {
          resposta.write("<b>Operações disponíveis:</b><BR>");
-         resposta.write("<a href=\"cadastro.html\">1. Cadastro</a><BR>");
+         resposta.write("<a href=\"cadastro.html\">1. Cadastro</a><BR>"); 
          // Novas opções de funcionalidades entram aqui!
       }
       resposta.write("</body></html>");
