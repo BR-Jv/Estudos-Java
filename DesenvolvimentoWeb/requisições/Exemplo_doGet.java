@@ -15,9 +15,8 @@ public class Exemplo_doGet extends HttpServlet{
    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws Servlet {
       PrintWriter resposta = response.getWriter();
       resposta.write("<html><body>");
-      resposta.write("Olá, " + request.getParameter("nome") + " !!!"); //getParameter("nome"), Pega o valor da variável indicada, se existir.  
+      resposta.write("Olá, " + request.getParameter("nome") + " !!!"); //Pega o valor da variável indicada, se não existir retorna null.  
       resposta.write("</html></body>");
-      //Sempre que o parâmetro não for encontrado ou não existir o valor retornado é null  
    }
 
 }

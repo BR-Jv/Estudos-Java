@@ -63,8 +63,7 @@ Usamos o campos ocultos(inputs do tipo hidden) dos formulários.<br>
 
 ### Sessões 
 
-Com essa abordagem mantemos o estado do cliente(informações) no lado do servidor.<br>
-Fazemos isso guardando as informações em um objeto do tipo HttpSession<br>
+Usando sessões mantemos o estado do cliente(informações) no lado do servidor, fazemos isso guardando as informações em um objeto do tipo HttpSession. <br>
 
 ***Informações importantes***<br>
 * Utilizamos a interface javax.servlet.http.HttpSession 
@@ -72,14 +71,13 @@ Fazemos isso guardando as informações em um objeto do tipo HttpSession<br>
 * Usamos o método getSession() da classe HttpServletRequest para criar o objeto 
 * Umas das formas de finaliza as sessões é usando o método invalidate() da classe HttpSession
 
-método **getSession()** se comporta da seguinte forma: 
-* Se não existir nenhum objeto, será criado um do tipo HttpSession. 
-* Caso exista, ele irá retornar o objeto. 
+método **getSession()** se comporta da seguinte forma:<br>
+Quando chamado verifica se existe algum objeto do tipo HttpSession, se existir o método irá retorná-lo, se não, ele será criado.<br>
+ 
+método **getSession(false)** se comporta da seguinte forma:<br> 
+Quando passado como parâmetro o valor true, esse método irá se comportar como o getSession, caso o valor seja false, o método retorna a sessão.<br>
 
-método **getSession(false)** se comporta da seguinte forma: 
-* Se como parâmetro passarmos o valor true, ele irá se comportar como o getSession()
-* Se o valor do parâmetro for false, ele irá retornar a sessão.
-Obs: getSession(false) não cria uma sessão, apenas retorna.<br>
+***Obs:*** getSession(false) não cria uma sessão.<br>
 
 método **invalidate()**<br>
 Esse método é utilizado para liberar o objeto do servidor e descartar todo o seu estado.<br>
