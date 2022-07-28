@@ -84,3 +84,23 @@ Esse método é utilizado para liberar o objeto do servidor e descartar todo o s
 
 **[Olhar o exemplo da pasta sessao]**<br>
 
+# JSP (JavaServer Pages) 
+
+Tecnologia utiliazada pra se criar conteúdo web tanto estático como dinâmico.<br>
+
+O marcador <code><%= %></code> delimita um espaço que deve ser preenchido com uma expressão Java, ou seja, uma instrução que retorne algo.<br>
+
+**[olhar exemplo do diretório jsp]**<br> 
+
+## Ciclo de vida do JSP 
+
+Ao ser acessado pela primeira vez pelo servidor, o arquivo JSP será traduzido para um Servlet.<br>
+ 
+ [Tradução_jsp](/imgs/jsp.png);<br>
+
+ Pontos importantes que devemos notar no arquivo servlet gerado: 
+ * Todo o conteúdo da página de resposta será escrito através de uma variável de nome out. Ela se comporta de forma semelhante à classe PrintWriter 
+ * Conteúdos estáticos serão traduzidos pelo comando out.write(), passando o conteúdo estático como parâmetro
+ * Conteúdos dinâmicos, representados por marcadores e diretivas JSP, são traduzidos de forma equivalente a de códigos que normalmente escreveriamos nos servlets
+
+ **Obs:** Esse processo de tradução é feita de forma automática e transparente, como programadores devemos ter uma noção de como ela funciona! 
