@@ -121,3 +121,33 @@ Esse método possui os parâmetros **request** e **response**, nele temos alguma
 **[Olhar o exemplo2 do diretório jsp]**
 
 ## Scriptlets
+
+Os scriptlets são blocos de código Java delimitados pelos marcadores <code><% %></code>. Dentro desse bloco de código, pode existir qualquer comando Java válido.<br> 
+
+**OBS:** variavéis que são criados dentro dos scriptlets são locais ao método _jspService().<br>
+
+Para fazer com que uma variável seja um variável de instância(atributo do servlet) devemos usar um elemento JSP chamado de declaração. Uma declaração é delimitada pelos marcadores <code><%! %></code>.<br>
+
+**[olhar o exemplo3 do diretório JSP]**
+
+## Comentários 
+
+Usamos os marcadores <code><%-- --%></code> para apresentar comentários dentro de um arquivo JSP, também podemos usar o <code><!- --></code> do html.<br> 
+
+**OBS:** Comentários usando os marcadores JSP não são colocados na página HTML de resposta. 
+
+## Reutilizando códigos de outro arquivo
+
+No JSP conseguimos modularizar o código, ou seja, dividir o conteúdo de seus arquivos em partes menores que depois serão compostas para resultar nas páginas do sistema.<br>
+
+Usamos o marcador <code><%@ include file="<nome_do_arquivo>"%></code> para inclusões estáticas.<br>
+
+**[Olhar os exemplos4 e 4.1]**
+
+Outra forma é usando a diretiva <code><jsp:include></code>. Essa diretiva faz a inclusão tanto estática como dinâmica de outros arquivos.<br>
+
+Como se comportam os tipos de inclusões: 
+* Estática 
+   O código do arquivo referenciado é colocado no Servlet gerado para o arquivo JSP que está querendo executar.
+* Dinâmica 
+   Na hora em que o arquivo que faz a inclusão é executado, ele executa o arquivo incluído e seu resultado (código da página de resposta) é colocado dentro da resposta final a ser montada.
