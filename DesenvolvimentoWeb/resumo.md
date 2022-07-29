@@ -104,3 +104,20 @@ Ao ser acessado pela primeira vez pelo servidor, o arquivo JSP será traduzido p
  * Conteúdos dinâmicos, representados por marcadores e diretivas JSP, são traduzidos de forma equivalente a de códigos que normalmente escreveriamos nos servlets
 
  **Obs:** Esse processo de tradução é feita de forma automática e transparente, como programadores devemos ter uma noção de como ela funciona! 
+
+ ## JSP e variáveis declaradas 
+
+O método _jspService() do servlet, gerado apartir de uma página jsp, é responsável pela geração da página de resposta.<br> 
+Esse método possui os parâmetros **request** e **response**, nele temos algumas variáveis locais ao método sendo essas: 
+* session - referênciando ao objeto sessão, se o mesmo tiver sido criado
+* application - referente ao objeto do tipo ServletContext
+* config - referente ao objeto do tipo ServletConfig, o qual dá acesso a informações de configuração do Servlet
+* out - referente ao objeto de escrita na página de resposta a ser gerada
+
+**obs:** tanto os parâmetros como as variáveis do método _jspService() podem ser acessadas pelo código JSP.<br> 
+
+**obs:** Ao usar arquivos JSP, os objetos sessão são criados se não existirem.<br>
+
+**[Olhar o exemplo2 do diretório jsp]**
+
+## Scriptlets
