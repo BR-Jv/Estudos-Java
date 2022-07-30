@@ -147,7 +147,7 @@ Usamos o marcador <code><%@ include file="<nome_do_arquivo>"%></code> para inclu
 Outra forma é usando a diretiva <code><jsp:include></code>. Essa diretiva faz a inclusão tanto estática como dinâmica de outros arquivos.<br>
 
 Como se comportam os tipos de inclusões: 
-* Estática 
-   O código do arquivo referenciado é colocado no Servlet gerado para o arquivo JSP que está querendo executar.
-* Dinâmica 
-   Na hora em que o arquivo que faz a inclusão é executado, ele executa o arquivo incluído e seu resultado (código da página de resposta) é colocado dentro da resposta final a ser montada.
+* Estática<br> 
+O código do arquivo referenciado é colocado no Servlet gerado para o arquivo JSP que está querendo executar.
+* Dinâmica<br> 
+Na hora em que o arquivo que faz a inclusão é executado, ele executa o arquivo incluído e seu resultado (código da página de resposta) é colocado dentro da resposta final a ser montada.
