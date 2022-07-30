@@ -151,3 +151,20 @@ Como se comportam os tipos de inclusões:
 O código do arquivo referenciado é colocado no Servlet gerado para o arquivo JSP que está querendo executar.
 * Dinâmica<br> 
 Na hora em que o arquivo que faz a inclusão é executado, ele executa o arquivo incluído e seu resultado (código da página de resposta) é colocado dentro da resposta final a ser montada.
+
+# Arquitetura MVC (Model - View - Controller)
+
+Uma arquitetura que organiza o código de um software em três camadas: 
+
+## Model 
+
+Representa as regras de negócio. Toda a lógica da aplicação é também a  comunicação com  o banco de dados ou outros sistemas, fazem parte dessa camada.
+
+## View
+
+Camada que representa as telas de resposta do sistema. Sendo ativado pelo controller e recebendo informaçõpes do model.
+
+## Controller  
+
+Responsável por receber os comando dos usuários e acionar as ações corretas a serem realizadas no sistema.
+
