@@ -1,5 +1,7 @@
 # Ambiente de desenvolvimento web 
 
+**OBS:** versão do JDK usado nesse resumo: 1.8.0_152
+
 ## Tecnologias java para web 
 
 * JSP - Java Server Pages 
@@ -167,4 +169,26 @@ Camada que representa as telas de resposta do sistema. Sendo ativado pelo contro
 ## Controller  
 
 Responsável por receber os comando dos usuários e acionar as ações corretas a serem realizadas no sistema.
+
+
+# JSTL 
+
+## Tag library 
+
+É um conjunto de tags úteis empacotadas e distribuídas em conjunto, é usada para implementar as funcionalidades do sistema sem recorrer a scriptlets dentro dos arquivos JSP. Além disso, torna um trecho de código utilizado em outras páginas do sistema.<br>
+
+Bibliotecas JSTL: 
+* core 
+* XML 
+* internacionalização 
+* SQL
+* funções
+
+## Instalando o JSTL 
+
+Baixe o arquivo **jstl** e o copie para a pasta **lib** do projeto que deseja utilizar essa tecnologia.
+
+## Biblioteca JSTL 
+
+Funcionalidades da biblioteca padrão JSTL 
 
